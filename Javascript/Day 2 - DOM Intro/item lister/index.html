@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:coleamfrancis@gmail.com" method="post">
+        <label for="search_btn"></label>
+            <input type="search" title="search" id="search" placeholder="search form">
+            <input type="submit" value="Search">
+            <br>
+            <br>
+        <fieldset> 
+            <legend>User details</legend>
+            <label for="user_name">Username: </label>
+            <input type="text" name="username" id="use_name" title="username">  
+            <br />
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" title="password" id="password" required="required">
+            <br>
+            <label for="comment"><p>Comment Section:</p></label>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="comment..."></textarea>
+            <br>
+            <br>
+            <label>True
+            <input type="radio" title="services" name="services">
+            </label>
+            <br>
+            <input type="radio" title="services" name="services" checked>
+            <label for="services">False</label>
+            <br>
+            <label>None
+            <input type="radio" title="services" name="services">
+            </label>
+            <br>
+            <br>
+            <input type="checkbox" name="genres" title="music_genre" id="genre">
+            <label for="genre" selected>iTunes</label>
+            <br>
+            <input type="checkbox" name="genres" title="music_genre" id="fm">
+            <label for="genre" >Lorry Fm</label>
+            <br>
+            <input type="checkbox" name="genres" title="music_genre" id="spotify">
+            <label for="genre">Spotify</label>
+            <br>
+            <br>
+            <select name="artists" title="artist" size="3" multiple>
+                <option value="pop">Aurora</option>
+                <option value="classical" selected>whitney</option>
+                <option value="rock">Billie Eilish</option>
+            </select>
+            <br>
+            <br>
+            <label for="upload"></label>
+            <input type="file" name="file_upload" title="files">
+            <br>
+            <br>
+            <label>
+            <input type="submit" name="upload_btn" value="Submit form">
+            </label>
+            <p>Subscribe to our email list:</p>
+            <label>
+                <input type="email" title="mail_sub">
+                <input type="submit" value="subscribe">
+            </label>
+            <br>
+            <br>
+            <button type="button">add</button>
+            <p>Date:</p>
+            <label for="url"></label>
+            <input type="url" title="url" id="date">
+        </fieldset> 
+    </form>
+</body>
+</html>

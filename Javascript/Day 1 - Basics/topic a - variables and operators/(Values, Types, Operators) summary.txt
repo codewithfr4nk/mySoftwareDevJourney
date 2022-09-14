@@ -1,0 +1,16 @@
+* Javascript has four value types: Number(1,2,3...), String('a', 'b', 'code'...), Boolean(true, false), Undefined(null).
+
+* Values can be combined or transformed using binary, unary or ternary operators.
+
+* Examples of binary operators are: 
+	1. Arithmetic(+(addition, concatenator), -(subtraction), /(division), %(modulo)).
+	2. Comparison(==, ===(equal to), !=, !==(not equal to), <(less than), >(greater than), <=(less or equal to), >=(greater or equal 	   	   to)) 
+	3. &&(logical AND), ||(logical OR).
+
+* Examples of unary operators are: 
+	1. - (-(negate a number ie -3, -1)
+	2. ! (logical negator ie 2 !== 4, 'love' != 'hate')) 
+	3. typeof(find the value type ie typeof(2) //Number)
+
+*Example of ternary operator: 
+	1. ?: (picking one of 2 values based on the 3rd value). 

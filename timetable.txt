@@ -1,0 +1,54 @@
+1. Full stack Javascript >> 9hrs
+	a.)Full-stack Javascript(javascript, Mern, Angularjs, Typescript, Vuejs, Nextjs) >> 7hrs
+	b.)Front-end design((Html)/UI/UX/CSS design(playing with advanced CSS(Tailwind, Saas)) > 2hrs
+
+2. Python >> 6hrs
+	a.)Fundamentals > Full-stack python(Django & SQL(PostgreSQL)/NoSQL(MongoDb, Database design),AWS certification(Cloud Computing + DevOps),Docker,Kubernetes) >> 3hrs
+	// b.)Python Data Structures and Algorithms
+	
+3. Ethical Hacking/Linux development >> 1hr
+	a.)Personal study and research(ie, Mastering the command line/Linux shell/bash scripting/hacking)
+
+4. Extras >> 1hrs 30mins
+	a.)Chores > 40mins
+	b.)meals > 10mins
+	c.)workout > 40mins
+
+6. Sleep >> 6hrs 30mins
+
+Timetable:
+2200hrs -> 4:30am
+	*Sleep
+
+4:30am -> 4:50am
+	*workout
+
+4:50am -> 5:50am
+	*Ethical Hacking
+
+5:50am -> 6:20am
+	*Html & Css
+
+6:20am -> 6:40am
+	*chores
+
+6:40am -> 8:10am
+	*Html & Css
+
+8:10am -> 8:30am
+	*Grooming + breakfast
+
+8:30am -> 1530hrs
+	*Full stack Javascript
+
+1530hrs -> 1550hrs
+	*workout
+
+1550hrs -> 2150hrs
+	*Python programming
+
+2150hrs -> 2200hrs
+	*meal
+
+
+
