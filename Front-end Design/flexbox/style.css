@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #3473e6;
+    --secondary-color: #a1c3ff;
+    --tertiary-color: #000;
+    --more-color: #0151cc;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #a1c3ff;
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+     
+}
+
+.navBar {
+    display: flex;
+    background-color: var(--primary-color);
+    height: 60px;
+    padding: 15px 13%;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.nav-items {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.navBar>h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.content-area {
+    display: flex;
+    background-color: var(--more-color);
+    height: 400px;   
+}
+
+.more-info {
+    display: flex;
+    background-color: #a1c3ff;
+    height: 200px;
+    padding: 0 11% 30px 11%;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 13%;
+    line-height: 2;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+img {
+    padding-right: 8%;
+}
+
+h5 {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--more-color);
+    color: white;
+    margin: 10px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.info h2 {
+    padding-bottom: 12px;
+    
+}
+
+h4 {
+    color: var(--tertiary-color);
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 10px;
+}
+
+ 
