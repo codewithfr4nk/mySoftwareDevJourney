@@ -4,44 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Crash Course</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>flexbox crash course</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div class="flex-container">
-        <div class="navBar">
-            <h2>FlexBox</h2>
-            <ul class="nav-items">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="index.html">About</a></li>
-                <li class="nav-item"><a href="index.html">Contact</a></li>
+    <div class="navbar">
+        <div class="container">
+            <div class="logo">FlexBox</div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="content-area">
-            <div class="title">
+    </div>
+    <div class="header">
+        <div class="container">
+            <div>
                 <h1>Flexbox Crash Course</h1>
-                <h5>This site was designed by Francis while learning the basics of flexbox. Flexbox is a very important and useful tool in CSS.</h5>
+                <p>This site was designed by Francis while learning the basics of flexbox. Flexbox is a very important and useful tool in CSS.</p>
             </div>
-            <img src="images/grid.svg" alt="Grid Cube image">
-
+            <img src="images/grid.svg" alt="svg grid">
         </div>
-        <div class="more-info">
-            <div class="info">
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="box">
                 <h2>Alignment & Space</h2>
                 <p>A more efficient way to layout, align and distribute space among items ina container</p>
             </div>
 
-            <div class="info">
+            <div class="box">
                 <h2>Tricky Positioning</h2>
                 <p>Flexbox usually solves tricky problems including how to position or dynamically resize elements on a page</p>
             </div>
 
-            <div class="info">
+            <div class="box">
                 <h2>Responsive Design</h2>
                 <p>Flexbox makes building a website layout(and making it responsive!) much, much easier</p>
             </div>
         </div>
     </div>
-    <h4>&#169 Francis</h4>
+    <h5>&copy Francis</h5>
 </body>
 </html>
